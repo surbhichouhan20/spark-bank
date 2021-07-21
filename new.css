@@ -1,0 +1,64 @@
+.navigation{
+	background-color: rgba(245, 245, 245, 0.829);	
+	color: white;
+}
+.navigation ul {
+	
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+	color: whitesmoke;
+}
+.navigation ul li a {
+	color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul{
+	display: inline;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation a:hover {
+	background: #ddd;
+	color: black;
+  }  
+.heading {
+	font-size: 60px;
+	text-align: center;
+    margin: 0px;
+    padding: 0px; 
+	align-items: center;
+	color:black;
+}
+  
+.box {
+	border: 20px solid grey;
+	position:absolute;
+	top:60%;
+	left:40%;
+	margin-top:-90px;/* this is half the height of your div*/
+	margin-left:-80px;/this is half of width of your div/
+  }
+  .operation{
+	background-color:rgba(245, 245, 245, 0.829);
+	text-align:center;
+	margin-top:0px;
+	padding:20px;
+  }
+.btn  {
+	margin-top:10px;
+	display: inline-block;
+	border: 2px solid black;
+    font-size: 30px;
+}
+.btn a:hover {
+	background:red;
+	color: black;
+  }
